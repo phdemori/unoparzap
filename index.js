@@ -86,7 +86,7 @@ console.log("resposta final", responder)
 })
 
 const porta = process.env.PORT || 8080;
-const hostname = "127.0.0.1"
+const hostname = "https://unoparzap.herokuapp.com/"
 
 app.listen(porta, () => {
   console.log(`servidor rodando em http://${hostname}:${porta}`);
